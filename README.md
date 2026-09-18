@@ -51,7 +51,7 @@ GitHub Mastery
 [x] Level 1  — Git Fundamentals (Plumbing, Porcelain & Objects)
 [x] Level 2  — GitHub Repository Mastery & Hygiene
 [x] Level 3  — Branching & Professional Git Workflows
-[ ] Level 4  — Issues, Projects & Collaboration
+[x] Level 4  — Issues, Projects & Collaboration
 [ ] Level 5  — Pull Requests & Code Review Mastery
 [ ] Level 6  — GitHub Actions & Enterprise CI/CD
 [ ] Level 7  — Codespaces & Cloud Development Environments
@@ -76,8 +76,8 @@ GitHub Mastery
 | **1** | [`01-git-fundamentals/`](01-git-fundamentals/) | Three-Tree Architecture, Plumbing (`cat-file`, `hash-object`), Porcelain, Dag Graphs | Beginner $\to$ Pro | **READY** |
 | **2** | [`02-repositories/`](02-repositories/) | Repository Architecture, `.gitignore`, `.gitattributes`, Templates, Hygiene | Beginner $\to$ Dev | **READY** |
 | **3** | [`03-branching-workflows/`](03-branching-workflows/) | Trunk-Based, GitHub Flow, Merge vs Rebase, Conflict Surgery, Reflog Rescue | Dev $\to$ Pro | **READY** |
-| **4** | [`04-issues-projects/`](04-issues-projects/) | GitHub Projects v2, Issue Forms, Workflows, Milestones, Roadmaps | Dev $\to$ Pro | Up Next |
-| **5** | [`05-pull-requests/`](05-pull-requests/) | PR Lifecycle, CODEOWNERS, Review Etiquette, Suggested Changes, Merge Strategies | Dev → Pro | Queued |
+| **4** | [`04-issues-projects/`](04-issues-projects/) | GitHub Projects v2, Issue Forms, Workflows, Milestones, Roadmaps | Dev $\to$ Pro | **READY** |
+| **5** | [`05-pull-requests/`](05-pull-requests/) | PR Lifecycle, CODEOWNERS, Review Etiquette, Suggested Changes, Merge Strategies | Dev $\to$ Pro | Up Next |
 | **6** | [`06-github-actions/`](06-github-actions/) | CI/CD Pipelines, Matrix Builds, Reusable Workflows, Custom Actions, Security | Dev → Pro | Queued |
 | **7** | [`07-codespaces/`](07-codespaces/) | Cloud VMs, Dev Containers (`devcontainer.json`), Dotfiles, Prebuilds | Dev → Pro | Queued |
 | **8** | [`08-security/`](08-security/) | Secret Scanning, Push Protection, Dependabot, CodeQL (SAST), Branch Rulesets | Dev → Pro | Queued |

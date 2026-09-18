@@ -37,21 +37,22 @@ Establish the architectural and governance foundation for **GitHub Mastery for D
 - [x] **Phase 4: Level 1 — Git Fundamentals (Plumbing & Porcelain)** — Three-tree architecture, DAG graph, `hash-object`, `cat-file`, commit objects, tree objects, Lab 1 Break/Fix, Challenges (Tiers 1–5), Assessment.
 - [x] **Phase 5: Level 2 — GitHub Repository Mastery & Hygiene** — Repository architecture, `.gitignore` mechanics, `.gitattributes`, repository templates, issue/PR templates, licensing, CODEOWNERS, Lab 2 Break/Fix, Challenges (Tiers 1–5), Assessment.
 - [x] **Phase 6: Level 3 — Branching & Professional Git Workflows** — Trunk-Based vs GitHub Flow, Fast-Forward vs Merge Commits vs Squash vs Rebase, `git rebase -i`, 3-way `zdiff3` conflict surgery, `git rerere`, Lab 3 Break/Fix, Challenges (Tiers 1–5), Assessment.
-- [ ] **Phase 7: Level 4 — Issues, Projects & Collaboration** — GitHub Projects v2, Custom Fields, Automation Workflows, Milestones, Roadmaps, Issue Triage, Lab 4.
-- [ ] **Phase 8: Verification & Meta-Infrastructure** — Configure `.github/` workflows for markdown linting, link verification, and pre-commit checks.
+- [x] **Phase 7: Level 4 — Issues, Projects & Collaboration** — GitHub Projects v2, Custom Fields, Automation Workflows, Milestones, Roadmaps, Issue Triage, Lab 4 Break/Fix, Challenges (Tiers 1–5), Assessment.
+- [ ] **Phase 8: Level 5 — Pull Requests & Code Review** — PR Lifecycle, Reviewer Workflows, Suggested Changes, Merge Queue, CODEOWNERS integration, Lab 5.
+- [ ] **Phase 9: Verification & Meta-Infrastructure** — Configure `.github/` workflows for markdown linting, link verification, and pre-commit checks.
 
 ---
 
 ## 4. Current Status & Decisions
 
-- **Levels 0, 1, 2 & 3 Completed**: Foundations, object database, plumbing mechanics, three-tree architecture, repository architecture, `.gitignore` mechanics, `.gitattributes` normalization, YAML issue forms, branching strategies, merge DAGs, interactive rebasing, `zdiff3` conflict surgery, and `git rerere` are fully authored and tested.
-- **Next Milestone**: Level 4 (Issues, Projects & Collaboration).
+- **Levels 0, 1, 2, 3 & 4 Completed**: Foundations, object database, plumbing mechanics, three-tree architecture, repository architecture, `.gitignore` mechanics, `.gitattributes` normalization, YAML issue forms, branching strategies, merge DAGs, interactive rebasing, `zdiff3` conflict surgery, `git rerere`, GitHub Issues, tasklists, sub-issues, label taxonomy, sprint milestones, Projects v2, custom fields, and automated workflows are fully authored and tested.
+- **Next Milestone**: Level 5 (Pull Requests & Code Review).
 
 ---
 
 ## 5. Handoff Notes
 
-- **Completed**: `03-branching-workflows/` (Syllabus, Lesson 1, Lesson 2, Lesson 3, Lesson 4), `labs/03-branching-and-conflict-surgery-lab.md`, `challenges/03-branching-challenges.md`, `assessments/03-branching-assessment.md`.
-- **Next Action**: Review Level 3 materials or proceed to authoring Level 4: Issues, Projects & Collaboration.
+- **Completed**: `04-issues-projects/` (Syllabus, Lesson 1, Lesson 2, Lesson 3, Lesson 4), `labs/04-issues-projects-and-automation-lab.md`, `challenges/04-issues-projects-challenges.md`, `assessments/04-issues-projects-assessment.md`.
+- **Next Action**: Review Level 4 materials or proceed to authoring Level 5: Pull Requests & Code Review.
 
 
