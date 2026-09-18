@@ -6,7 +6,17 @@ Read this entire file before starting any task on this project.
 
 ## 1. Project Purpose
 
-<!-- State the primary user problem, application outcome, and core value proposition. -->
+**GitHub Mastery for Developers (`github-zero-to-hero`)** is an interactive, hands-on developer training system and maintained educational repository designed to teach GitHub and Git from fundamental mental models to enterprise-grade engineering workflows.
+
+### Core Audiences:
+1. **Learner**: A developer, engineer, or student seeking complete practical competence across version control, CI/CD, security, automation, and collaborative platform operations.
+2. **Maintainer**: The course author and maintainers who continuously evolve, validate, and update the curriculum alongside GitHub platform updates.
+
+### Core Value Proposition & Pedagogy:
+- **`LEARN → DO → BREAK → FIX → EXPLAIN → APPLY`**: Replaces passive reading with deliberate hands-on labs, failure scenarios (merge conflicts, detached HEAD, leaked secrets, broken CI), multi-tier challenges, and comprehensive capstone workflows.
+- **Living Example Repository**: The repository itself demonstrates the enterprise patterns it teaches (GitHub Actions, Branch Rulesets, Issue/PR Templates, CODEOWNERS, Dependabot, CodeQL, Semantic Versioning).
+
+---
 
 ## 2. Required Reading
 
@@ -22,12 +32,12 @@ Before taking action, review:
 
 ## 3. Environment & Commands
 
-<!-- List exact development commands for this repository -->
-- **Install**: `npm install` <!-- update with actual package manager -->
-- **Dev**: `npm run dev`
-- **Test**: `npm test`
-- **Lint / Typecheck**: `npm run lint`
-- **Build**: `npm run build`
+<!-- Exact development and validation commands for this repository -->
+- **Install / Setup**: `npm install` (or local markdown/linter toolchain)
+- **Lint / Format**: `npx prettier --check .` / `npx markdownlint-cli2 "**/*.md"`
+- **Test / Verify Labs**: `npm test` (or validation test runners in `labs/` and `assessments/`)
+- **Link Check**: `npx markdown-link-check **/*.md`
+- **Build / Doc Gen**: `npm run build`
 
 ---
 
